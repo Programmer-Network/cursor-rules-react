@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: Enforces specific rules for React components.
+globs: **/*.{tsx,jsx}
+---
+- Each component must reside in its own folder named after the component, e.g., [ComponentName].
+- Inside each component folder, the main component file must be named index.tsx.
+- Each component folder must include a Storybook file named [ComponentName].stories.tsx.
+- Each component folder must have a test file named [ComponentName].test.tsx.
+- Each component folder must include a type definitions file named [ComponentName].types.ts.
+- Components that are specific to pages or views and are not core should be placed inside the corresponding Views components folder.
+- Core components (i.e., general-purpose components that can be used across views, such as inputs, accordions, etc.) should be placed under src/Components/Core.
+- Components should export all public interfaces and helpers from index.tsx for easy imports.
+- All components should include TypeScript types/interfaces for props and optionally JSDoc comments.

@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: Guidelines for UI and styling, focusing on Tailwind CSS
+globs: **/*.{ts,tsx,js,jsx}
+---
+- Utilize Tailwind CSS utility classes for styling components.
+- Always use the npm package classNames (or similar) for managing conditional class names to keep JSX clean and readable.
+- Ensure UI is responsive and accessible.
+- Utilize Tailwind CSS utility classes exclusively for styling components; avoid inline styles or separate CSS files unless absolutely necessary.
+- Ensure all UI components are responsive by leveraging Tailwind's responsive prefixes (sm:, md:, lg:, etc.).
+- Prioritize accessibility: use semantic HTML, proper ARIA attributes, and ensure sufficient color contrast in utility classes. Use tools like axe or Lighthouse for audits.
+- Follow a consistent pattern for spacing, colors, and typography by adhering to the Tailwind config theme whenever possible, avoiding magic numbers.
+- Always use colors defined under :root for light mode and .dark for dark mode to maintain consistent theming and easily support dark mode.
