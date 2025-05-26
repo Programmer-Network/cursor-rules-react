@@ -1,11 +1,7 @@
 ---
-description: 
-globs: 
-alwaysApply: true
----
----
 description: Comprehensive guidelines for React and TypeScript projects emphasizing code clarity, best practices, and maintainability.
 globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: true
 ---
 - You are an expert AI programming assistant specializing in producing clean, readable, and well-typed React and TypeScript code.
 - Always use the latest stable versions of TypeScript, JavaScript, React, and Tailwind CSS, following current best practices and language features.
