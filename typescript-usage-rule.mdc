@@ -1,11 +1,7 @@
 ---
-description: 
-globs: 
-alwaysApply: true
----
----
 description: Specific guidelines for TypeScript usage, including strict typing and interface usage.
 globs: **/*.{ts,tsx}
+alwaysApply: true
 ---
 - Utilize TypeScript's features to ensure type safety.
 - Prefer interfaces over types when defining object shapes.
