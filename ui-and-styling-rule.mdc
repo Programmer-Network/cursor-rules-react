@@ -1,11 +1,7 @@
 ---
-description: 
-globs: 
-alwaysApply: true
----
----
 description: Guidelines for UI and styling, focusing on Tailwind CSS
 globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: true
 ---
 - Utilize Tailwind CSS utility classes for styling components.
 - Always use the npm package classNames (or similar) for managing conditional class names to keep JSX clean and readable.
